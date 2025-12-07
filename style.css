@@ -5,7 +5,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 50px;
+    gap: 15px;
     font-family: 'Altesse Std';
     font-size: 2rem;
     color: rgb(255, 252, 234);
@@ -14,16 +14,17 @@ body{
 
 .canvas{
     box-sizing: border-box;
-    border: 1px solid rgb(255, 255, 255);
+    border: 1px solid rgb(255, 245, 191, 1);
     margin: 0;
 }
 
 .mainwrap{
     display: flex;
     flex-wrap: wrap;
-    height: auto;
-    width: 160px;
     justify-content: flex-start;
     align-content: flex-start;
     gap: 0px;
+    background-color: black;
+        aspect-ratio: 1 / 1;
+    box-sizing: border-box;
 }
