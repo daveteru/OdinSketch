@@ -32,3 +32,9 @@ function initializecanvas(){
     }
     
 }
+
+function resetcanvas(){
+    DIVmainwrap.innerHTML = '';
+    DIVmainwrap.style.height ='';
+    DIVmainwrap.style.width = '';
+}
