@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    font-family: 'Altesse Std';
+    font-size: 2rem;
+    color: rgb(255, 252, 234);
+    background-color: rgb(87, 34, 34);
+}
+
+.canvas{
+    box-sizing: border-box;
+    border: 1px solid rgb(255, 255, 255);
+    margin: 0;
+}
+
+.mainwrap{
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    width: 160px;
+    justify-content: flex-start;
+    align-content: flex-start;
+    gap: 0px;
+}
